@@ -1,0 +1,435 @@
+[AutogradeApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[AutogradeApp | DEBUG] Searching ['/Users/username/.jupyter', '/Users/username/Library/Python/3.9/etc/jupyter', '/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/etc/jupyter', '/usr/local/etc/jupyter', '/etc/jupyter'] for config files
+[AutogradeApp | DEBUG] Looking for jupyter_config in /etc/jupyter
+[AutogradeApp | DEBUG] Looking for jupyter_config in /usr/local/etc/jupyter
+[AutogradeApp | DEBUG] Looking for jupyter_config in /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/etc/jupyter
+[AutogradeApp | DEBUG] Looking for jupyter_config in /Users/username/Library/Python/3.9/etc/jupyter
+[AutogradeApp | DEBUG] Looking for jupyter_config in /Users/username/.jupyter
+[AutogradeApp | DEBUG] Looking for nbgrader_config in /etc/jupyter
+[AutogradeApp | DEBUG] Looking for nbgrader_config in /usr/local/etc/jupyter
+[AutogradeApp | DEBUG] Looking for nbgrader_config in /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/etc/jupyter
+[AutogradeApp | DEBUG] Looking for nbgrader_config in /Users/username/Library/Python/3.9/etc/jupyter
+[AutogradeApp | DEBUG] Looking for nbgrader_config in /Users/username/.jupyter
+[AutogradeApp | DEBUG] Looking for nbgrader_config in /Users/username/Documents/uni/Master thesis/Stuff/testNotebook
+[AutogradeApp | DEBUG] Looking for nbgrader_config in /Users/username/Documents/uni/Master thesis/Stuff/testNotebook
+[AutogradeApp | DEBUG] Using authenticator: NoAuthPlugin
+[AutogradeApp | INFO] Copying /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/submitted/five/test/.DS_Store -> /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/five/test/.DS_Store
+[AutogradeApp | INFO] Creating/updating student with ID 'five': {}
+[AutogradeApp | INFO] Overwriting files with master versions from the source directory
+[AutogradeApp | INFO] Copying /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/source/./test/.DS_Store -> /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/five/test/.DS_Store
+[AutogradeApp | INFO] Sanitizing /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/submitted/five/test/test.ipynb
+[AutogradeApp | INFO] Converting notebook /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/submitted/five/test/test.ipynb
+[AutogradeApp | DEBUG] Student: five
+[AutogradeApp | DEBUG] Assignment: test
+[AutogradeApp | DEBUG] Notebook: test
+[AutogradeApp | DEBUG] Applying preprocessor: ClearOutput
+[AutogradeApp | DEBUG] Applying preprocessor: DeduplicateIds
+[AutogradeApp | DEBUG] Applying preprocessor: OverwriteKernelspec
+[AutogradeApp | DEBUG] Source notebook kernelspec: {'display_name': 'Python 3 (ipykernel)', 'language': 'python', 'name': 'python3'}
+[AutogradeApp | DEBUG] Submitted notebook kernelspec: {'display_name': 'Python 3 (ipykernel)', 'language': 'python', 'name': 'python3'}
+[AutogradeApp | DEBUG] Overwriting submitted notebook kernelspec: {'display_name': 'Python 3 (ipykernel)', 'language': 'python', 'name': 'python3'}
+[AutogradeApp | DEBUG] Applying preprocessor: OverwriteCells
+[AutogradeApp | DEBUG] Applying preprocessor: CheckCellMetadata
+[AutogradeApp | INFO] Writing 2681 bytes to /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/five/test/test.ipynb
+[AutogradeApp | INFO] Autograding /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/five/test/test.ipynb
+[AutogradeApp | INFO] Converting notebook /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/five/test/test.ipynb
+[AutogradeApp | DEBUG] Student: five
+[AutogradeApp | DEBUG] Assignment: test
+[AutogradeApp | DEBUG] Notebook: test
+[AutogradeApp | DEBUG] Applying preprocessor: Execute
+[AutogradeApp | DEBUG] Instantiating kernel 'Python 3 (ipykernel)' with kernel provisioner: local-provisioner
+[AutogradeApp | DEBUG] Starting kernel: ['/Library/Developer/CommandLineTools/usr/bin/python3', '-m', 'ipykernel_launcher', '-f', '/private/var/folders/yc/d86r1d3j4nb61q240zpc_l140000gn/T/tmpe41rcq_j.json', '--HistoryManager.hist_file=:memory:']
+[AutogradeApp | DEBUG] Connecting to: tcp://127.0.0.1:52793
+[AutogradeApp | DEBUG] connecting iopub channel to tcp://127.0.0.1:52790
+[AutogradeApp | DEBUG] Connecting to: tcp://127.0.0.1:52790
+[AutogradeApp | DEBUG] connecting shell channel to tcp://127.0.0.1:52789
+[AutogradeApp | DEBUG] Connecting to: tcp://127.0.0.1:52789
+[AutogradeApp | DEBUG] connecting stdin channel to tcp://127.0.0.1:52791
+[AutogradeApp | DEBUG] Connecting to: tcp://127.0.0.1:52791
+[AutogradeApp | DEBUG] connecting heartbeat channel to tcp://127.0.0.1:52792
+[AutogradeApp | DEBUG] connecting control channel to tcp://127.0.0.1:52793
+[AutogradeApp | DEBUG] Connecting to: tcp://127.0.0.1:52793
+[AutogradeApp | DEBUG] Executing cell:
+    Name: studentFive
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'busy'}
+[AutogradeApp | DEBUG] msg_type: execute_input
+[AutogradeApp | DEBUG] content: {'code': 'Name: studentFive', 'execution_count': 1}
+[AutogradeApp | DEBUG] msg_type: error
+[AutogradeApp | DEBUG] content: {'traceback': ['\x1b[0;31m---------------------------------------------------------------------------\x1b[0m', '\x1b[0;31mNameError\x1b[0m                                 Traceback (most recent call last)', 'Cell \x1b[0;32mIn[1], line 1\x1b[0m\n\x1b[0;32m----> 1\x1b[0m Name: \x1b[43mstudentFive\x1b[49m\n', "\x1b[0;31mNameError\x1b[0m: name 'studentFive' is not defined"], 'ename': 'NameError', 'evalue': "name 'studentFive' is not defined"}
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'idle'}
+[AutogradeApp | DEBUG] Skipping non-executing cell 1
+[AutogradeApp | DEBUG] Executing cell:
+    def addNumbers():
+        a = 0
+        for i in range(10, 20):
+            a = a + i
+        return a
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'busy'}
+[AutogradeApp | DEBUG] msg_type: execute_input
+[AutogradeApp | DEBUG] content: {'code': 'def addNumbers():\n    a = 0\n    for i in range(10, 20):\n        a = a + i\n    return a', 'execution_count': 2}
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'idle'}
+[AutogradeApp | DEBUG] Executing cell:
+    assert addNumbers() == 145, "Pattern_1"
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'busy'}
+[AutogradeApp | DEBUG] msg_type: execute_input
+[AutogradeApp | DEBUG] content: {'code': 'assert addNumbers() == 145, "Pattern_1"', 'execution_count': 3}
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'idle'}
+[AutogradeApp | DEBUG] Executing cell:
+    assert addNumbers() == 165, "Pattern_2"
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'busy'}
+[AutogradeApp | DEBUG] msg_type: execute_input
+[AutogradeApp | DEBUG] content: {'code': 'assert addNumbers() == 165, "Pattern_2"', 'execution_count': 4}
+[AutogradeApp | DEBUG] msg_type: error
+[AutogradeApp | DEBUG] content: {'traceback': ['\x1b[0;31m---------------------------------------------------------------------------\x1b[0m', '\x1b[0;31mAssertionError\x1b[0m                            Traceback (most recent call last)', 'Cell \x1b[0;32mIn[4], line 1\x1b[0m\n\x1b[0;32m----> 1\x1b[0m \x1b[38;5;28;01massert\x1b[39;00m addNumbers() \x1b[38;5;241m==\x1b[39m \x1b[38;5;241m165\x1b[39m, \x1b[38;5;124m"\x1b[39m\x1b[38;5;124mPattern_2\x1b[39m\x1b[38;5;124m"\x1b[39m\n', '\x1b[0;31mAssertionError\x1b[0m: Pattern_2'], 'ename': 'AssertionError', 'evalue': 'Pattern_2: Range: 0 to 20'}
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'idle'}
+[AutogradeApp | DEBUG] Destroying zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x11f0ae730>
+[AutogradeApp | DEBUG] Applying preprocessor: LimitOutput
+[AutogradeApp | DEBUG] Applying preprocessor: SaveAutoGrades
+[AutogradeApp | DEBUG] Applying preprocessor: AssignLatePenalties
+[AutogradeApp | DEBUG] Applying preprocessor: CheckCellMetadata
+[AutogradeApp | INFO] Writing 4939 bytes to /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/five/test/test.ipynb
+[AutogradeApp | INFO] Setting destination file permissions to 444
+[AutogradeApp | INFO] Copying /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/submitted/four/test/.DS_Store -> /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/four/test/.DS_Store
+[AutogradeApp | INFO] Creating/updating student with ID 'four': {}
+[AutogradeApp | INFO] Overwriting files with master versions from the source directory
+[AutogradeApp | INFO] Copying /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/source/./test/.DS_Store -> /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/four/test/.DS_Store
+[AutogradeApp | INFO] Sanitizing /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/submitted/four/test/test.ipynb
+[AutogradeApp | INFO] Converting notebook /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/submitted/four/test/test.ipynb
+[AutogradeApp | DEBUG] Student: four
+[AutogradeApp | DEBUG] Assignment: test
+[AutogradeApp | DEBUG] Notebook: test
+[AutogradeApp | DEBUG] Applying preprocessor: ClearOutput
+[AutogradeApp | DEBUG] Applying preprocessor: DeduplicateIds
+[AutogradeApp | DEBUG] Applying preprocessor: OverwriteKernelspec
+[AutogradeApp | DEBUG] Source notebook kernelspec: {'display_name': 'Python 3 (ipykernel)', 'language': 'python', 'name': 'python3'}
+[AutogradeApp | DEBUG] Submitted notebook kernelspec: {'display_name': 'Python 3 (ipykernel)', 'language': 'python', 'name': 'python3'}
+[AutogradeApp | DEBUG] Overwriting submitted notebook kernelspec: {'display_name': 'Python 3 (ipykernel)', 'language': 'python', 'name': 'python3'}
+[AutogradeApp | DEBUG] Applying preprocessor: OverwriteCells
+[AutogradeApp | DEBUG] Applying preprocessor: CheckCellMetadata
+[AutogradeApp | INFO] Writing 2681 bytes to /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/four/test/test.ipynb
+[AutogradeApp | INFO] Autograding /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/four/test/test.ipynb
+[AutogradeApp | INFO] Converting notebook /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/four/test/test.ipynb
+[AutogradeApp | DEBUG] Student: four
+[AutogradeApp | DEBUG] Assignment: test
+[AutogradeApp | DEBUG] Notebook: test
+[AutogradeApp | DEBUG] Applying preprocessor: Execute
+[AutogradeApp | DEBUG] Instantiating kernel 'Python 3 (ipykernel)' with kernel provisioner: local-provisioner
+[AutogradeApp | DEBUG] Starting kernel: ['/Library/Developer/CommandLineTools/usr/bin/python3', '-m', 'ipykernel_launcher', '-f', '/private/var/folders/yc/d86r1d3j4nb61q240zpc_l140000gn/T/tmpwwbgz_45.json', '--HistoryManager.hist_file=:memory:']
+[AutogradeApp | DEBUG] Connecting to: tcp://127.0.0.1:52820
+[AutogradeApp | DEBUG] connecting iopub channel to tcp://127.0.0.1:52817
+[AutogradeApp | DEBUG] Connecting to: tcp://127.0.0.1:52817
+[AutogradeApp | DEBUG] connecting shell channel to tcp://127.0.0.1:52816
+[AutogradeApp | DEBUG] Connecting to: tcp://127.0.0.1:52816
+[AutogradeApp | DEBUG] connecting stdin channel to tcp://127.0.0.1:52818
+[AutogradeApp | DEBUG] Connecting to: tcp://127.0.0.1:52818
+[AutogradeApp | DEBUG] connecting heartbeat channel to tcp://127.0.0.1:52819
+[AutogradeApp | DEBUG] connecting control channel to tcp://127.0.0.1:52820
+[AutogradeApp | DEBUG] Connecting to: tcp://127.0.0.1:52820
+[AutogradeApp | DEBUG] Executing cell:
+    Name: studentFour
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'busy'}
+[AutogradeApp | DEBUG] msg_type: execute_input
+[AutogradeApp | DEBUG] content: {'code': 'Name: studentFour', 'execution_count': 1}
+[AutogradeApp | DEBUG] msg_type: error
+[AutogradeApp | DEBUG] content: {'traceback': ['\x1b[0;31m---------------------------------------------------------------------------\x1b[0m', '\x1b[0;31mNameError\x1b[0m                                 Traceback (most recent call last)', 'Cell \x1b[0;32mIn[1], line 1\x1b[0m\n\x1b[0;32m----> 1\x1b[0m Name: \x1b[43mstudentFour\x1b[49m\n', "\x1b[0;31mNameError\x1b[0m: name 'studentFour' is not defined"], 'ename': 'NameError', 'evalue': "name 'studentFour' is not defined"}
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'idle'}
+[AutogradeApp | DEBUG] Skipping non-executing cell 1
+[AutogradeApp | DEBUG] Executing cell:
+    def addNumbers():
+        a = 0
+        for i in range(10, 20):
+            a = a + i
+        return a
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'busy'}
+[AutogradeApp | DEBUG] msg_type: execute_input
+[AutogradeApp | DEBUG] content: {'code': 'def addNumbers():\n    a = 0\n    for i in range(10, 20):\n        a = a + i\n    return a', 'execution_count': 2}
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'idle'}
+[AutogradeApp | DEBUG] Executing cell:
+    assert addNumbers() == 145, "Pattern_1"
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'busy'}
+[AutogradeApp | DEBUG] msg_type: execute_input
+[AutogradeApp | DEBUG] content: {'code': 'assert addNumbers() == 145, "Pattern_1"', 'execution_count': 3}
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'idle'}
+[AutogradeApp | DEBUG] Executing cell:
+    assert addNumbers() == 165, "Pattern_2"
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'busy'}
+[AutogradeApp | DEBUG] msg_type: execute_input
+[AutogradeApp | DEBUG] content: {'code': 'assert addNumbers() == 165, "Pattern_2"', 'execution_count': 4}
+[AutogradeApp | DEBUG] msg_type: error
+[AutogradeApp | DEBUG] content: {'traceback': ['\x1b[0;31m---------------------------------------------------------------------------\x1b[0m', '\x1b[0;31mAssertionError\x1b[0m                            Traceback (most recent call last)', 'Cell \x1b[0;32mIn[4], line 1\x1b[0m\n\x1b[0;32m----> 1\x1b[0m \x1b[38;5;28;01massert\x1b[39;00m addNumbers() \x1b[38;5;241m==\x1b[39m \x1b[38;5;241m165\x1b[39m, \x1b[38;5;124m"\x1b[39m\x1b[38;5;124mPattern_2\x1b[39m\x1b[38;5;124m"\x1b[39m\n', '\x1b[0;31mAssertionError\x1b[0m: Pattern_2'], 'ename': 'AssertionError', 'evalue': 'Pattern_2: Range: 0 to 20'}
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'idle'}
+[AutogradeApp | DEBUG] Destroying zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x11f2dbdc0>
+[AutogradeApp | DEBUG] Applying preprocessor: LimitOutput
+[AutogradeApp | DEBUG] Applying preprocessor: SaveAutoGrades
+[AutogradeApp | DEBUG] Applying preprocessor: AssignLatePenalties
+[AutogradeApp | DEBUG] Applying preprocessor: CheckCellMetadata
+[AutogradeApp | INFO] Writing 4939 bytes to /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/four/test/test.ipynb
+[AutogradeApp | INFO] Setting destination file permissions to 444
+[AutogradeApp | INFO] Copying /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/submitted/one/test/.DS_Store -> /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/one/test/.DS_Store
+[AutogradeApp | INFO] Creating/updating student with ID 'one': {}
+[AutogradeApp | INFO] Overwriting files with master versions from the source directory
+[AutogradeApp | INFO] Copying /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/source/./test/.DS_Store -> /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/one/test/.DS_Store
+[AutogradeApp | INFO] Sanitizing /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/submitted/one/test/test.ipynb
+[AutogradeApp | INFO] Converting notebook /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/submitted/one/test/test.ipynb
+[AutogradeApp | DEBUG] Student: one
+[AutogradeApp | DEBUG] Assignment: test
+[AutogradeApp | DEBUG] Notebook: test
+[AutogradeApp | DEBUG] Applying preprocessor: ClearOutput
+[AutogradeApp | DEBUG] Applying preprocessor: DeduplicateIds
+[AutogradeApp | DEBUG] Applying preprocessor: OverwriteKernelspec
+[AutogradeApp | DEBUG] Source notebook kernelspec: {'display_name': 'Python 3 (ipykernel)', 'language': 'python', 'name': 'python3'}
+[AutogradeApp | DEBUG] Submitted notebook kernelspec: {'display_name': 'Python 3 (ipykernel)', 'language': 'python', 'name': 'python3'}
+[AutogradeApp | DEBUG] Overwriting submitted notebook kernelspec: {'display_name': 'Python 3 (ipykernel)', 'language': 'python', 'name': 'python3'}
+[AutogradeApp | DEBUG] Applying preprocessor: OverwriteCells
+[AutogradeApp | DEBUG] Applying preprocessor: CheckCellMetadata
+[AutogradeApp | INFO] Writing 2680 bytes to /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/one/test/test.ipynb
+[AutogradeApp | INFO] Autograding /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/one/test/test.ipynb
+[AutogradeApp | INFO] Converting notebook /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/one/test/test.ipynb
+[AutogradeApp | DEBUG] Student: one
+[AutogradeApp | DEBUG] Assignment: test
+[AutogradeApp | DEBUG] Notebook: test
+[AutogradeApp | DEBUG] Applying preprocessor: Execute
+[AutogradeApp | DEBUG] Instantiating kernel 'Python 3 (ipykernel)' with kernel provisioner: local-provisioner
+[AutogradeApp | DEBUG] Starting kernel: ['/Library/Developer/CommandLineTools/usr/bin/python3', '-m', 'ipykernel_launcher', '-f', '/private/var/folders/yc/d86r1d3j4nb61q240zpc_l140000gn/T/tmpypjcbvpz.json', '--HistoryManager.hist_file=:memory:']
+[AutogradeApp | DEBUG] Connecting to: tcp://127.0.0.1:52847
+[AutogradeApp | DEBUG] connecting iopub channel to tcp://127.0.0.1:52844
+[AutogradeApp | DEBUG] Connecting to: tcp://127.0.0.1:52844
+[AutogradeApp | DEBUG] connecting shell channel to tcp://127.0.0.1:52843
+[AutogradeApp | DEBUG] Connecting to: tcp://127.0.0.1:52843
+[AutogradeApp | DEBUG] connecting stdin channel to tcp://127.0.0.1:52845
+[AutogradeApp | DEBUG] Connecting to: tcp://127.0.0.1:52845
+[AutogradeApp | DEBUG] connecting heartbeat channel to tcp://127.0.0.1:52846
+[AutogradeApp | DEBUG] connecting control channel to tcp://127.0.0.1:52847
+[AutogradeApp | DEBUG] Connecting to: tcp://127.0.0.1:52847
+[AutogradeApp | DEBUG] Executing cell:
+    Name: studentOne
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'busy'}
+[AutogradeApp | DEBUG] msg_type: execute_input
+[AutogradeApp | DEBUG] content: {'code': 'Name: studentOne', 'execution_count': 1}
+[AutogradeApp | DEBUG] msg_type: error
+[AutogradeApp | DEBUG] content: {'traceback': ['\x1b[0;31m---------------------------------------------------------------------------\x1b[0m', '\x1b[0;31mNameError\x1b[0m                                 Traceback (most recent call last)', 'Cell \x1b[0;32mIn[1], line 1\x1b[0m\n\x1b[0;32m----> 1\x1b[0m Name: \x1b[43mstudentOne\x1b[49m\n', "\x1b[0;31mNameError\x1b[0m: name 'studentOne' is not defined"], 'ename': 'NameError', 'evalue': "name 'studentOne' is not defined"}
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'idle'}
+[AutogradeApp | DEBUG] Skipping non-executing cell 1
+[AutogradeApp | DEBUG] Executing cell:
+    def addNumbers():
+        a = 0
+        for i in range(10, 21):
+            a = a + i
+        return a
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'busy'}
+[AutogradeApp | DEBUG] msg_type: execute_input
+[AutogradeApp | DEBUG] content: {'code': 'def addNumbers():\n    a = 0\n    for i in range(10, 21):\n        a = a + i\n    return a', 'execution_count': 2}
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'idle'}
+[AutogradeApp | DEBUG] Executing cell:
+    assert addNumbers() == 145, "Pattern_1"
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'busy'}
+[AutogradeApp | DEBUG] msg_type: execute_input
+[AutogradeApp | DEBUG] content: {'code': 'assert addNumbers() == 145, "Pattern_1"', 'execution_count': 3}
+[AutogradeApp | DEBUG] msg_type: error
+[AutogradeApp | DEBUG] content: {'traceback': ['\x1b[0;31m---------------------------------------------------------------------------\x1b[0m', '\x1b[0;31mAssertionError\x1b[0m                            Traceback (most recent call last)', 'Cell \x1b[0;32mIn[3], line 1\x1b[0m\n\x1b[0;32m----> 1\x1b[0m \x1b[38;5;28;01massert\x1b[39;00m addNumbers() \x1b[38;5;241m==\x1b[39m \x1b[38;5;241m145\x1b[39m, \x1b[38;5;124m"\x1b[39m\x1b[38;5;124mPattern_1\x1b[39m\x1b[38;5;124m"\x1b[39m\n', '\x1b[0;31mAssertionError\x1b[0m: Pattern_1'], 'ename': 'AssertionError', 'evalue': 'Pattern_1: Return inside loop'}
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'idle'}
+[AutogradeApp | DEBUG] Executing cell:
+    assert addNumbers() == 165, "Pattern_2"
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'busy'}
+[AutogradeApp | DEBUG] msg_type: execute_input
+[AutogradeApp | DEBUG] content: {'code': 'assert addNumbers() == 165, "Pattern_2"', 'execution_count': 4}
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'idle'}
+[AutogradeApp | DEBUG] Destroying zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x11f643b50>
+[AutogradeApp | DEBUG] Applying preprocessor: LimitOutput
+[AutogradeApp | DEBUG] Applying preprocessor: SaveAutoGrades
+[AutogradeApp | DEBUG] Applying preprocessor: AssignLatePenalties
+[AutogradeApp | DEBUG] Applying preprocessor: CheckCellMetadata
+[AutogradeApp | INFO] Writing 4935 bytes to /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/one/test/test.ipynb
+[AutogradeApp | INFO] Setting destination file permissions to 444
+[AutogradeApp | INFO] Copying /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/submitted/three/test/.DS_Store -> /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/three/test/.DS_Store
+[AutogradeApp | INFO] Creating/updating student with ID 'three': {}
+[AutogradeApp | INFO] Overwriting files with master versions from the source directory
+[AutogradeApp | INFO] Copying /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/source/./test/.DS_Store -> /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/three/test/.DS_Store
+[AutogradeApp | INFO] Sanitizing /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/submitted/three/test/test.ipynb
+[AutogradeApp | INFO] Converting notebook /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/submitted/three/test/test.ipynb
+[AutogradeApp | DEBUG] Student: three
+[AutogradeApp | DEBUG] Assignment: test
+[AutogradeApp | DEBUG] Notebook: test
+[AutogradeApp | DEBUG] Applying preprocessor: ClearOutput
+[AutogradeApp | DEBUG] Applying preprocessor: DeduplicateIds
+[AutogradeApp | DEBUG] Applying preprocessor: OverwriteKernelspec
+[AutogradeApp | DEBUG] Source notebook kernelspec: {'display_name': 'Python 3 (ipykernel)', 'language': 'python', 'name': 'python3'}
+[AutogradeApp | DEBUG] Submitted notebook kernelspec: {'display_name': 'Python 3 (ipykernel)', 'language': 'python', 'name': 'python3'}
+[AutogradeApp | DEBUG] Overwriting submitted notebook kernelspec: {'display_name': 'Python 3 (ipykernel)', 'language': 'python', 'name': 'python3'}
+[AutogradeApp | DEBUG] Applying preprocessor: OverwriteCells
+[AutogradeApp | DEBUG] Applying preprocessor: CheckCellMetadata
+[AutogradeApp | INFO] Writing 2682 bytes to /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/three/test/test.ipynb
+[AutogradeApp | INFO] Autograding /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/three/test/test.ipynb
+[AutogradeApp | INFO] Converting notebook /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/three/test/test.ipynb
+[AutogradeApp | DEBUG] Student: three
+[AutogradeApp | DEBUG] Assignment: test
+[AutogradeApp | DEBUG] Notebook: test
+[AutogradeApp | DEBUG] Applying preprocessor: Execute
+[AutogradeApp | DEBUG] Instantiating kernel 'Python 3 (ipykernel)' with kernel provisioner: local-provisioner
+[AutogradeApp | DEBUG] Starting kernel: ['/Library/Developer/CommandLineTools/usr/bin/python3', '-m', 'ipykernel_launcher', '-f', '/private/var/folders/yc/d86r1d3j4nb61q240zpc_l140000gn/T/tmpxs3rrym_.json', '--HistoryManager.hist_file=:memory:']
+[AutogradeApp | DEBUG] Connecting to: tcp://127.0.0.1:52875
+[AutogradeApp | DEBUG] connecting iopub channel to tcp://127.0.0.1:52872
+[AutogradeApp | DEBUG] Connecting to: tcp://127.0.0.1:52872
+[AutogradeApp | DEBUG] connecting shell channel to tcp://127.0.0.1:52871
+[AutogradeApp | DEBUG] Connecting to: tcp://127.0.0.1:52871
+[AutogradeApp | DEBUG] connecting stdin channel to tcp://127.0.0.1:52873
+[AutogradeApp | DEBUG] Connecting to: tcp://127.0.0.1:52873
+[AutogradeApp | DEBUG] connecting heartbeat channel to tcp://127.0.0.1:52874
+[AutogradeApp | DEBUG] connecting control channel to tcp://127.0.0.1:52875
+[AutogradeApp | DEBUG] Connecting to: tcp://127.0.0.1:52875
+[AutogradeApp | DEBUG] Executing cell:
+    Name: studentThree
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'busy'}
+[AutogradeApp | DEBUG] msg_type: execute_input
+[AutogradeApp | DEBUG] content: {'code': 'Name: studentThree', 'execution_count': 1}
+[AutogradeApp | DEBUG] msg_type: error
+[AutogradeApp | DEBUG] content: {'traceback': ['\x1b[0;31m---------------------------------------------------------------------------\x1b[0m', '\x1b[0;31mNameError\x1b[0m                                 Traceback (most recent call last)', 'Cell \x1b[0;32mIn[1], line 1\x1b[0m\n\x1b[0;32m----> 1\x1b[0m Name: \x1b[43mstudentThree\x1b[49m\n', "\x1b[0;31mNameError\x1b[0m: name 'studentThree' is not defined"], 'ename': 'NameError', 'evalue': "name 'studentThree' is not defined"}
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'idle'}
+[AutogradeApp | DEBUG] Skipping non-executing cell 1
+[AutogradeApp | DEBUG] Executing cell:
+    def addNumbers():
+        a = 0
+        for i in range(10, 21):
+            a = a + i
+        return a
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'busy'}
+[AutogradeApp | DEBUG] msg_type: execute_input
+[AutogradeApp | DEBUG] content: {'code': 'def addNumbers():\n    a = 0\n    for i in range(10, 21):\n        a = a + i\n    return a', 'execution_count': 2}
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'idle'}
+[AutogradeApp | DEBUG] Executing cell:
+    assert addNumbers() == 145, "Pattern_1"
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'busy'}
+[AutogradeApp | DEBUG] msg_type: execute_input
+[AutogradeApp | DEBUG] content: {'code': 'assert addNumbers() == 145, "Pattern_1"', 'execution_count': 3}
+[AutogradeApp | DEBUG] msg_type: error
+[AutogradeApp | DEBUG] content: {'traceback': ['\x1b[0;31m---------------------------------------------------------------------------\x1b[0m', '\x1b[0;31mAssertionError\x1b[0m                            Traceback (most recent call last)', 'Cell \x1b[0;32mIn[3], line 1\x1b[0m\n\x1b[0;32m----> 1\x1b[0m \x1b[38;5;28;01massert\x1b[39;00m addNumbers() \x1b[38;5;241m==\x1b[39m \x1b[38;5;241m145\x1b[39m, \x1b[38;5;124m"\x1b[39m\x1b[38;5;124mPattern_1\x1b[39m\x1b[38;5;124m"\x1b[39m\n', '\x1b[0;31mAssertionError\x1b[0m: Pattern_1'], 'ename': 'AssertionError', 'evalue': 'Pattern_1: Return inside loop'}
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'idle'}
+[AutogradeApp | DEBUG] Executing cell:
+    assert addNumbers() == 165, "Pattern_2"
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'busy'}
+[AutogradeApp | DEBUG] msg_type: execute_input
+[AutogradeApp | DEBUG] content: {'code': 'assert addNumbers() == 165, "Pattern_2"', 'execution_count': 4}
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'idle'}
+[AutogradeApp | DEBUG] Destroying zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x11f732700>
+[AutogradeApp | DEBUG] Applying preprocessor: LimitOutput
+[AutogradeApp | DEBUG] Applying preprocessor: SaveAutoGrades
+[AutogradeApp | DEBUG] Applying preprocessor: AssignLatePenalties
+[AutogradeApp | DEBUG] Applying preprocessor: CheckCellMetadata
+[AutogradeApp | INFO] Writing 4943 bytes to /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/three/test/test.ipynb
+[AutogradeApp | INFO] Setting destination file permissions to 444
+[AutogradeApp | INFO] Copying /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/submitted/two/test/.DS_Store -> /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/two/test/.DS_Store
+[AutogradeApp | INFO] Creating/updating student with ID 'two': {}
+[AutogradeApp | INFO] Overwriting files with master versions from the source directory
+[AutogradeApp | INFO] Copying /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/source/./test/.DS_Store -> /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/two/test/.DS_Store
+[AutogradeApp | INFO] Sanitizing /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/submitted/two/test/test.ipynb
+[AutogradeApp | INFO] Converting notebook /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/submitted/two/test/test.ipynb
+[AutogradeApp | DEBUG] Student: two
+[AutogradeApp | DEBUG] Assignment: test
+[AutogradeApp | DEBUG] Notebook: test
+[AutogradeApp | DEBUG] Applying preprocessor: ClearOutput
+[AutogradeApp | DEBUG] Applying preprocessor: DeduplicateIds
+[AutogradeApp | DEBUG] Applying preprocessor: OverwriteKernelspec
+[AutogradeApp | DEBUG] Source notebook kernelspec: {'display_name': 'Python 3 (ipykernel)', 'language': 'python', 'name': 'python3'}
+[AutogradeApp | DEBUG] Submitted notebook kernelspec: {'display_name': 'Python 3 (ipykernel)', 'language': 'python', 'name': 'python3'}
+[AutogradeApp | DEBUG] Overwriting submitted notebook kernelspec: {'display_name': 'Python 3 (ipykernel)', 'language': 'python', 'name': 'python3'}
+[AutogradeApp | DEBUG] Applying preprocessor: OverwriteCells
+[AutogradeApp | DEBUG] Applying preprocessor: CheckCellMetadata
+[AutogradeApp | INFO] Writing 2680 bytes to /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/two/test/test.ipynb
+[AutogradeApp | INFO] Autograding /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/two/test/test.ipynb
+[AutogradeApp | INFO] Converting notebook /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/two/test/test.ipynb
+[AutogradeApp | DEBUG] Student: two
+[AutogradeApp | DEBUG] Assignment: test
+[AutogradeApp | DEBUG] Notebook: test
+[AutogradeApp | DEBUG] Applying preprocessor: Execute
+[AutogradeApp | DEBUG] Instantiating kernel 'Python 3 (ipykernel)' with kernel provisioner: local-provisioner
+[AutogradeApp | DEBUG] Starting kernel: ['/Library/Developer/CommandLineTools/usr/bin/python3', '-m', 'ipykernel_launcher', '-f', '/private/var/folders/yc/d86r1d3j4nb61q240zpc_l140000gn/T/tmpy3hgjx2y.json', '--HistoryManager.hist_file=:memory:']
+[AutogradeApp | DEBUG] Connecting to: tcp://127.0.0.1:52903
+[AutogradeApp | DEBUG] connecting iopub channel to tcp://127.0.0.1:52900
+[AutogradeApp | DEBUG] Connecting to: tcp://127.0.0.1:52900
+[AutogradeApp | DEBUG] connecting shell channel to tcp://127.0.0.1:52899
+[AutogradeApp | DEBUG] Connecting to: tcp://127.0.0.1:52899
+[AutogradeApp | DEBUG] connecting stdin channel to tcp://127.0.0.1:52901
+[AutogradeApp | DEBUG] Connecting to: tcp://127.0.0.1:52901
+[AutogradeApp | DEBUG] connecting heartbeat channel to tcp://127.0.0.1:52902
+[AutogradeApp | DEBUG] connecting control channel to tcp://127.0.0.1:52903
+[AutogradeApp | DEBUG] Connecting to: tcp://127.0.0.1:52903
+[AutogradeApp | DEBUG] Executing cell:
+    Name: studentTwo
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'busy'}
+[AutogradeApp | DEBUG] msg_type: execute_input
+[AutogradeApp | DEBUG] content: {'code': 'Name: studentTwo', 'execution_count': 1}
+[AutogradeApp | DEBUG] msg_type: error
+[AutogradeApp | DEBUG] content: {'traceback': ['\x1b[0;31m---------------------------------------------------------------------------\x1b[0m', '\x1b[0;31mNameError\x1b[0m                                 Traceback (most recent call last)', 'Cell \x1b[0;32mIn[1], line 1\x1b[0m\n\x1b[0;32m----> 1\x1b[0m Name: \x1b[43mstudentTwo\x1b[49m\n', "\x1b[0;31mNameError\x1b[0m: name 'studentTwo' is not defined"], 'ename': 'NameError', 'evalue': "name 'studentTwo' is not defined"}
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'idle'}
+[AutogradeApp | DEBUG] Skipping non-executing cell 1
+[AutogradeApp | DEBUG] Executing cell:
+    def addNumbers():
+        a = 0
+        for i in range(10, 21):
+            a = a + i
+        return a
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'busy'}
+[AutogradeApp | DEBUG] msg_type: execute_input
+[AutogradeApp | DEBUG] content: {'code': 'def addNumbers():\n    a = 0\n    for i in range(10, 21):\n        a = a + i\n    return a', 'execution_count': 2}
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'idle'}
+[AutogradeApp | DEBUG] Executing cell:
+    assert addNumbers() == 145, "Pattern_1"
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'busy'}
+[AutogradeApp | DEBUG] msg_type: execute_input
+[AutogradeApp | DEBUG] content: {'code': 'assert addNumbers() == 145, "Pattern_1"', 'execution_count': 3}
+[AutogradeApp | DEBUG] msg_type: error
+[AutogradeApp | DEBUG] content: {'traceback': ['\x1b[0;31m---------------------------------------------------------------------------\x1b[0m', '\x1b[0;31mAssertionError\x1b[0m                            Traceback (most recent call last)', 'Cell \x1b[0;32mIn[3], line 1\x1b[0m\n\x1b[0;32m----> 1\x1b[0m \x1b[38;5;28;01massert\x1b[39;00m addNumbers() \x1b[38;5;241m==\x1b[39m \x1b[38;5;241m145\x1b[39m, \x1b[38;5;124m"\x1b[39m\x1b[38;5;124mPattern_1\x1b[39m\x1b[38;5;124m"\x1b[39m\n', '\x1b[0;31mAssertionError\x1b[0m: Pattern_1'], 'ename': 'AssertionError', 'evalue': 'Pattern_1: Return inside loop'}
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'idle'}
+[AutogradeApp | DEBUG] Executing cell:
+    assert addNumbers() == 165, "Pattern_2"
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'busy'}
+[AutogradeApp | DEBUG] msg_type: execute_input
+[AutogradeApp | DEBUG] content: {'code': 'assert addNumbers() == 165, "Pattern_2"', 'execution_count': 4}
+[AutogradeApp | DEBUG] msg_type: status
+[AutogradeApp | DEBUG] content: {'execution_state': 'idle'}
+[AutogradeApp | DEBUG] Destroying zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x11f8213a0>
+[AutogradeApp | DEBUG] Applying preprocessor: LimitOutput
+[AutogradeApp | DEBUG] Applying preprocessor: SaveAutoGrades
+[AutogradeApp | DEBUG] Applying preprocessor: AssignLatePenalties
+[AutogradeApp | DEBUG] Applying preprocessor: CheckCellMetadata
+[AutogradeApp | INFO] Writing 4935 bytes to /Users/username/Documents/uni/Master thesis/Stuff/testNotebook/autograded/two/test/test.ipynb
+[AutogradeApp | INFO] Setting destination file permissions to 444
